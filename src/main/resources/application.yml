@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: esercizio-deploy-2
+    server:
+        port: 5000
+
+---
+environment: test
+server:
+    port: 4000
+
+---
+---
+environment: prod
+server:
+    port: 7070
